@@ -26,8 +26,12 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan
 public class SampleTraditionalApplication {
 
-	public static void main(String[] args) throws Exception {
-		SpringApplication.run(SampleTraditionalApplication.class, args);
-	}
+    public static void main(String[] args) throws Exception {
+        SpringApplication.run(SampleTraditionalApplication.class, args);
+    }
+
+    public static int add(int a, int b) {
+        return a + b;
+    }
 
 }
