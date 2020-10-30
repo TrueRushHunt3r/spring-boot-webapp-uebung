@@ -4,4 +4,4 @@ jdk:
   - openjdk15
 
 os:
-  - windows
+  - linux
