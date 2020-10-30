@@ -1,6 +1,7 @@
 language: java
 
-sudo: false
-
 jdk:
   - openjdk15
+
+os:
+  - windows
